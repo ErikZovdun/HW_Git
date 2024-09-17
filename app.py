@@ -10,10 +10,14 @@ def subtract(a, b):
 def multiplication(a, b):
     return a * b
 
+def division(a, b):
+    return a / b
+
 operation = input("Choose an operation:\n"
                   "1 - add\n"
                   "2 - subtract\n"
-                  "3 - multiplication\n")
+                  "3 - multiplication\n"
+                  "4 - division\n")
 
 match operation:
     case "1":
@@ -22,5 +26,7 @@ match operation:
         print("Result: " + subtract(number1, number2))
     case "3":
         print("Result: " + multiplication(number1, number2))
+    case "4":
+        print("Result: " + division(number1, number2))
     case _:
         print("Incorrect operation!")
