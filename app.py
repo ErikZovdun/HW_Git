@@ -13,7 +13,7 @@ def multiplication(a, b):
 operation = input("Choose an operation:\n"
                   "1 - add\n"
                   "2 - subtract\n"
-                  "3 - multiplication\n"
+                  "3 - multiplication\n")
 
 match operation:
     case "1":
